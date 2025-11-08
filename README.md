@@ -1,5 +1,14 @@
 # d3-legend
 
+## インストール方法
+
+npm install -g grunt-cli
+npm install
+npm test
+npm run build
+
+## Documents
+
 Full documentation: [http://d3-legend.susielu.com](http://d3-legend.susielu.com)
 
 ## Looking for compatibility with d3 v3?
@@ -19,10 +28,10 @@ Full documentation: [http://d3-legend.susielu.com](http://d3-legend.susielu.com)
 
 ### Using just the minified file
 
-You must include the [d3 library](http://d3js.org/) before including the legend file. Then you can simply add the compiled js file to your website:
+You must include the [d3 library](http://d3js.org/) before including the legend file. Then you can simply add the compiled js file from the `dist/` folder to your website:
 
-- d3-legend.min.js
-- d3-legend.js (Human readable version)
+- dist/d3-legend.min.js
+- dist/d3-legend.js (Human readable version)
 
 ### Using CDN
 
