@@ -16,6 +16,12 @@ Full documentation: [http://d3-legend.susielu.com](http://d3-legend.susielu.com)
 - You can see the code for the d3 legend that works with d3 v3 in the [v3 branch](https://github.com/susielu/d3-legend/tree/v3)
 - [Documentation](http://d3-legend-v3.susielu.com) for the v3 version of the legend
 
+## d3-legend v7 updates (npm version 3.0.0 and higher)
+
+- Core dependencies now target the d3 v7 module suite (`d3-selection@^3`, `d3-scale@^4`, etc.)
+- Pre-built browser bundles live under `dist/` and the docs/examples load `d3.v7`
+- Type definitions and documentation were refreshed to reflect the current API
+
 ## d3-legend v4 updates (npm version 2.0.0 and higher)
 
 - Flattened naming for accessing functions

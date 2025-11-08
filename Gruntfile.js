@@ -12,7 +12,15 @@ grunt.initConfig({
       },
       options: {
         browserifyOptions: { debug: true },
-        transform: [ ['babelify', {'presets': ['es2015']}] ]
+        transform: [
+          [
+            'babelify',
+            {
+              presets: ['es2015'],
+              global: true
+            }
+          ]
+        ]
       }
     },
     docs: {
