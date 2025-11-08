@@ -8,7 +8,7 @@ grunt.initConfig({
   browserify: {
     dist: {
       files: {
-        'd3-legend.js': ['src/web.js'],
+        'dist/d3-legend.js': ['src/web.js'],
       },
       options: {
         browserifyOptions: { debug: true },
@@ -33,12 +33,12 @@ grunt.initConfig({
   uglify: {
     build: {
       files: {
-        'd3-legend.min.js': 'd3-legend.js'
+        'dist/d3-legend.min.js': 'dist/d3-legend.js'
       }
     },
     docs: {
       files: {
-        'docs/d3-legend.min.js': 'd3-legend.js'
+        'docs/d3-legend.min.js': 'dist/d3-legend.js'
       }
     },
     docsjs: {

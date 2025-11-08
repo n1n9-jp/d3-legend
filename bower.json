@@ -1,6 +1,6 @@
 {
   "name": "d3-legend",
-  "main": "d3-legend.min.js",
+  "main": "dist/d3-legend.min.js",
   "version": "1.0.0",
   "homepage": "https://github.com/susielu/d3-legend",
   "keywords": [
